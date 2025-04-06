@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Weather App</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <!-- Animated Weather Background -->
+  <div class="animation-bg"></div>
+
+  <div class="container">
+    <h1>🌦️ Weather App</h1>
+    <p class="description">Find current weather and weekly forecast</p>
+
+    <input type="text" id="locationInput" placeholder="Enter city name" />
+    <button id="searchButton">Search</button>
+
+    <!-- Weather Details -->
+    <div class="weather-info">
+      <h2 id="location" class="location-text"></h2>
+      <p id="temperature" class="temperature-text"></p>
+      <p id="description" class="weather-description"></p>
+      <div id="weather-icon"><i class="fas fa-sun"></i></div>
+    </div>
+
+    <!-- Weekly Forecast -->
+    <div class="weekly-forecast" id="weeklyForecast">
+      <!-- Populated dynamically -->
+    </div>
+  </div>
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+  <script src="script.js"></script>
+</body>
+</html>
